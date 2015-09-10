@@ -1,0 +1,48 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto fadb2babf8654758940791c4d219aec3 --debug typical --relax --mt 6 -L fifo_generator_v12_0 -L xil_defaultlib -L axi_FPGA_configuration_controller -L work -L secureip --snapshot axi_FPGA_configuration_controller_testbench_behav work.axi_FPGA_configuration_controller_testbench -log elaborate.log 
+Using 6 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package std.textio
+Compiling package ieee.std_logic_textio
+Compiling package axi_fpga_configuration_controller.fpga_configuration_controller_pk...
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package fifo_generator_v12_0.fifo_generator_v12_0_pkg
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture behavioral of entity axi_fpga_configuration_controller.downstream_FPGA_model [\downstream_FPGA_model("XC7A15T ...]
+Compiling architecture behavioral of entity axi_fpga_configuration_controller.clock_divider [\clock_divider(10000,40000)\]
+Compiling architecture xilinx of entity fifo_generator_v12_0.reset_builtin [\reset_builtin(0,0,1,1,5)\]
+Compiling architecture ff18_internal_vhdl_v of entity unisim.FF18_INTERNAL_VHDL [\FF18_INTERNAL_VHDL("00000001000...]
+Compiling architecture fifo18e1_v of entity unisim.FIFO18E1 [\FIFO18E1("0000000100000","00000...]
+Compiling architecture xilinx of entity fifo_generator_v12_0.builtin_prim_v6 [\builtin_prim_v6("7SERIES",36,0,...]
+Compiling architecture xilinx of entity fifo_generator_v12_0.builtin_extdepth_v6 [\builtin_extdepth_v6("7SERIES",3...]
+Compiling architecture xilinx of entity fifo_generator_v12_0.builtin_top_v6 [\builtin_top_v6("7SERIES",36,512...]
+Compiling architecture xilinx of entity fifo_generator_v12_0.input_blk [\input_blk(0,0,32,32,32,0,0,1,1,...]
+Compiling architecture xilinx of entity fifo_generator_v12_0.output_blk [\output_blk(1,2,8,32,32,0,0,0,0,...]
+Compiling architecture xilinx of entity fifo_generator_v12_0.fifo_generator_v12_0_builtin [\fifo_generator_v12_0_builtin("z...]
+Compiling architecture xilinx of entity fifo_generator_v12_0.fifo_generator_top [\fifo_generator_top("zynq",0,4,6...]
+Compiling architecture xilinx of entity fifo_generator_v12_0.fifo_generator_v12_0_synth [\fifo_generator_v12_0_synth(0,0,...]
+Compiling architecture xilinx of entity fifo_generator_v12_0.fifo_generator_v12_0 [\fifo_generator_v12_0(0,0,9,"Bla...]
+Compiling architecture config_data_fifo_arch of entity xil_defaultlib.config_data_FIFO [config_data_fifo_default]
+Compiling architecture behavioral of entity axi_fpga_configuration_controller.FPGA_configuration_controller [\FPGA_configuration_controller(1...]
+Compiling architecture behavioral of entity axi_fpga_configuration_controller.axi_FPGA_configuration_controller [\axi_FPGA_configuration_controll...]
+Compiling architecture behavioral of entity work.AXI_ADDRESS_CONTROL_CHANNEL_model [axi_address_control_channel_mode...]
+Compiling architecture behavioral of entity work.AXI_READ_DATA_CHANNEL_model [axi_read_data_channel_model_defa...]
+Compiling architecture behavioral of entity work.AXI_WRITE_DATA_CHANNEL_model [axi_write_data_channel_model_def...]
+Compiling architecture behavioral of entity work.AXI_WRITE_DATA_RESPONSE_CHANNEL_model [axi_write_data_response_channel_...]
+Compiling architecture behavioral of entity work.AXI_lite_master_transaction_model [axi_lite_master_transaction_mode...]
+Compiling architecture behaviour of entity work.axi_fpga_configuration_controlle...
+Built simulation snapshot axi_FPGA_configuration_controller_testbench_behav

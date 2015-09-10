@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1441803007">
+  <File Type="RDS-DCP" Name="axi_FPGA_configuration_controller.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+  <File Type="RDS-UTIL-PB" Name="axi_FPGA_configuration_controller_utilization_synth.pb"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+  <File Type="RDS-PROPCONSTRS" Name="axi_FPGA_configuration_controller_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="axi_FPGA_configuration_controller.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+  <File Type="RDS-RDS" Name="axi_FPGA_configuration_controller.vds"/>
+  <File Type="RDS-UTIL" Name="axi_FPGA_configuration_controller_utilization_synth.rpt"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="axi_FPGA_configuration_controller_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="axi_FPGA_configuration_controller_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../VHDL_Sources/Synthesis_Sources/clock_divider.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="axi_FPGA_configuration_controller"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../VHDL_Sources/Synthesis_Sources/FPGA_configuration_controller_pkg.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="axi_FPGA_configuration_controller"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../VHDL_Sources/Synthesis_Sources/FPGA_configuration_controller.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="axi_FPGA_configuration_controller"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../VHDL_Sources/Synthesis_Sources/axi_FPGA_configuration_controller.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="axi_FPGA_configuration_controller"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="axi_FPGA_configuration_controller"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="config_data_FIFO"/>
+</GenRun>

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Sep 09 13:50:13 2015
+# Process ID: 11188
+# Log file: C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/project_1/project_1.runs/synth_1/axi_FPGA_configuration_controller.vds
+# Journal file: C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source axi_FPGA_configuration_controller.tcl -notrace

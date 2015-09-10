@@ -1,0 +1,12 @@
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1229793 on Wed May 13 16:45:39 MDT 2015
+  **** IP Build 1229511 on Wed May 13 12:27:48 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/project_1/project_1.hw/webtalk/labtool_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 3270171264 -regid "1131502_127455_210578766_968" -xml C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_co..."
+    (file "C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/project_1/project_1.hw/webtalk/labtool_webtalk.tcl" line 26)
+INFO: [Common 17-206] Exiting Webtalk at Tue Jun 23 10:01:02 2015...

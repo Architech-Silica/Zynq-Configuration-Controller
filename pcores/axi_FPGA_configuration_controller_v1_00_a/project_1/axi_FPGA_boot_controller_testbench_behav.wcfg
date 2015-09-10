@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="axi_FPGA_configuration_controller_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_FPGA_configuration_controller_testbench" />
+            <top_module name="fpga_configuration_controller_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="69" />
+   <wvobject type="divider" fp_name="divider285">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_ACLK" type="logic">
+      <obj_property name="ElementShortName">AXI_ACLK</obj_property>
+      <obj_property name="ObjectShortName">AXI_ACLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_ARESETN" type="logic">
+      <obj_property name="ElementShortName">AXI_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">AXI_ARESETN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_AWADDR" type="array">
+      <obj_property name="ElementShortName">AXI_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_AWADDR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_AWVALID" type="logic">
+      <obj_property name="ElementShortName">AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">AXI_AWVALID</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_AWREADY" type="logic">
+      <obj_property name="ElementShortName">AXI_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">AXI_AWREADY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_ARADDR" type="array">
+      <obj_property name="ElementShortName">AXI_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_ARADDR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_ARVALID" type="logic">
+      <obj_property name="ElementShortName">AXI_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">AXI_ARVALID</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_ARREADY" type="logic">
+      <obj_property name="ElementShortName">AXI_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">AXI_ARREADY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_WDATA" type="array">
+      <obj_property name="ElementShortName">AXI_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_WDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_WSTRB" type="array">
+      <obj_property name="ElementShortName">AXI_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_WVALID" type="logic">
+      <obj_property name="ElementShortName">AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">AXI_WVALID</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_WREADY" type="logic">
+      <obj_property name="ElementShortName">AXI_WREADY</obj_property>
+      <obj_property name="ObjectShortName">AXI_WREADY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_RDATA" type="array">
+      <obj_property name="ElementShortName">AXI_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_RDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_RRESP" type="array">
+      <obj_property name="ElementShortName">AXI_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_RRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_RVALID" type="logic">
+      <obj_property name="ElementShortName">AXI_RVALID</obj_property>
+      <obj_property name="ObjectShortName">AXI_RVALID</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_RREADY" type="logic">
+      <obj_property name="ElementShortName">AXI_RREADY</obj_property>
+      <obj_property name="ObjectShortName">AXI_RREADY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_BRESP" type="array">
+      <obj_property name="ElementShortName">AXI_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_BVALID" type="logic">
+      <obj_property name="ElementShortName">AXI_BVALID</obj_property>
+      <obj_property name="ObjectShortName">AXI_BVALID</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_BREADY" type="logic">
+      <obj_property name="ElementShortName">AXI_BREADY</obj_property>
+      <obj_property name="ObjectShortName">AXI_BREADY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/CONFIG_CCLK" type="logic">
+      <obj_property name="ElementShortName">CONFIG_CCLK</obj_property>
+      <obj_property name="ObjectShortName">CONFIG_CCLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/CONFIG_DATA" type="array">
+      <obj_property name="ElementShortName">CONFIG_DATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CONFIG_DATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/CONFIG_CSI_B" type="array">
+      <obj_property name="ElementShortName">CONFIG_CSI_B[0:0]</obj_property>
+      <obj_property name="ObjectShortName">CONFIG_CSI_B[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/CONFIG_RDWR_B" type="logic">
+      <obj_property name="ElementShortName">CONFIG_RDWR_B</obj_property>
+      <obj_property name="ObjectShortName">CONFIG_RDWR_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/CONFIG_PROGB" type="logic">
+      <obj_property name="ElementShortName">CONFIG_PROGB</obj_property>
+      <obj_property name="ObjectShortName">CONFIG_PROGB</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/CONFIG_INITB" type="logic">
+      <obj_property name="ElementShortName">CONFIG_INITB</obj_property>
+      <obj_property name="ObjectShortName">CONFIG_INITB</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/CONFIG_DONE" type="logic">
+      <obj_property name="ElementShortName">CONFIG_DONE</obj_property>
+      <obj_property name="ObjectShortName">CONFIG_DONE</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/go" type="logic">
+      <obj_property name="ElementShortName">go</obj_property>
+      <obj_property name="ObjectShortName">go</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/rnw" type="logic">
+      <obj_property name="ElementShortName">rnw</obj_property>
+      <obj_property name="ObjectShortName">rnw</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/address" type="array">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/read_data" type="array">
+      <obj_property name="ElementShortName">read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/sim_end" type="other">
+      <obj_property name="ElementShortName">sim_end</obj_property>
+      <obj_property name="ObjectShortName">sim_end</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/cycle_count" type="other">
+      <obj_property name="ElementShortName">cycle_count</obj_property>
+      <obj_property name="ObjectShortName">cycle_count</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/GENERATE_AXI_RESET" type="other">
+      <obj_property name="ElementShortName">GENERATE_AXI_RESET</obj_property>
+      <obj_property name="ObjectShortName">GENERATE_AXI_RESET</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/CONFIG_DATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">CONFIG_DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">CONFIG_DATA_WIDTH</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/CONFIG_CLK_FREQ_HZ" type="other">
+      <obj_property name="ElementShortName">CONFIG_CLK_FREQ_HZ</obj_property>
+      <obj_property name="ObjectShortName">CONFIG_CLK_FREQ_HZ</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/PCB_LAYOUT" type="other">
+      <obj_property name="ElementShortName">PCB_LAYOUT</obj_property>
+      <obj_property name="ObjectShortName">PCB_LAYOUT</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AES_SECURE_CONFIG" type="other">
+      <obj_property name="ElementShortName">AES_SECURE_CONFIG</obj_property>
+      <obj_property name="ObjectShortName">AES_SECURE_CONFIG</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/CONFIG_DATA_IS_BIT_SWAPPED" type="other">
+      <obj_property name="ElementShortName">CONFIG_DATA_IS_BIT_SWAPPED</obj_property>
+      <obj_property name="ObjectShortName">CONFIG_DATA_IS_BIT_SWAPPED</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/FPGA_PART_NUMBER" type="array">
+      <obj_property name="ElementShortName">FPGA_PART_NUMBER[1:9]</obj_property>
+      <obj_property name="ObjectShortName">FPGA_PART_NUMBER[1:9]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/C_S_AXI_DATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">C_S_AXI_DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">C_S_AXI_DATA_WIDTH</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/C_S_AXI_ADDR_WIDTH" type="other">
+      <obj_property name="ElementShortName">C_S_AXI_ADDR_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">C_S_AXI_ADDR_WIDTH</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/C_S_AXI_ACLK_FREQ_HZ" type="other">
+      <obj_property name="ElementShortName">C_S_AXI_ACLK_FREQ_HZ</obj_property>
+      <obj_property name="ObjectShortName">C_S_AXI_ACLK_FREQ_HZ</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_ACLK_period_NS" type="other">
+      <obj_property name="ElementShortName">AXI_ACLK_period_NS</obj_property>
+      <obj_property name="ObjectShortName">AXI_ACLK_period_NS</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_ACLK_period_PS" type="other">
+      <obj_property name="ElementShortName">AXI_ACLK_period_PS</obj_property>
+      <obj_property name="ObjectShortName">AXI_ACLK_period_PS</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/AXI_ACLK_period_time" type="other">
+      <obj_property name="ElementShortName">AXI_ACLK_period_time</obj_property>
+      <obj_property name="ObjectShortName">AXI_ACLK_period_time</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/simulation_interval" type="other">
+      <obj_property name="ElementShortName">simulation_interval</obj_property>
+      <obj_property name="ObjectShortName">simulation_interval</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/receiver_clk_period" type="other">
+      <obj_property name="ElementShortName">receiver_clk_period</obj_property>
+      <obj_property name="ObjectShortName">receiver_clk_period</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/receiver_clk_period_ns" type="other">
+      <obj_property name="ElementShortName">receiver_clk_period_ns</obj_property>
+      <obj_property name="ObjectShortName">receiver_clk_period_ns</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider286">
+      <obj_property name="label">UUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group320" type="group">
+      <obj_property name="label">UUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_ACLK" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_ARESETN" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARESETN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_AWADDR" type="array">
+         <obj_property name="ElementShortName">S_AXI_AWADDR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWADDR[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_AWVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWVALID</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_AWREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWREADY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_ARADDR" type="array">
+         <obj_property name="ElementShortName">S_AXI_ARADDR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARADDR[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_ARVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARVALID</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_ARREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARREADY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_WDATA" type="array">
+         <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_WSTRB" type="array">
+         <obj_property name="ElementShortName">S_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_WVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_WVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WVALID</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_WREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_WREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WREADY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_RDATA" type="array">
+         <obj_property name="ElementShortName">S_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_RRESP" type="array">
+         <obj_property name="ElementShortName">S_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_RVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_RVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RVALID</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_RREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_RREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RREADY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_BRESP" type="array">
+         <obj_property name="ElementShortName">S_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_BVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_BVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BVALID</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/S_AXI_BREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_BREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BREADY</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/CONFIG_CCLK" type="logic">
+         <obj_property name="ElementShortName">CONFIG_CCLK</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_CCLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/CONFIG_DATA" type="array">
+         <obj_property name="ElementShortName">CONFIG_DATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_DATA[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/CONFIG_CSI_B" type="array">
+         <obj_property name="ElementShortName">CONFIG_CSI_B[0:0]</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_CSI_B[0:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/CONFIG_RDWR_B" type="logic">
+         <obj_property name="ElementShortName">CONFIG_RDWR_B</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_RDWR_B</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/CONFIG_PROGB" type="logic">
+         <obj_property name="ElementShortName">CONFIG_PROGB</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_PROGB</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/CONFIG_INITB" type="logic">
+         <obj_property name="ElementShortName">CONFIG_INITB</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_INITB</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/CONFIG_DONE" type="logic">
+         <obj_property name="ElementShortName">CONFIG_DONE</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_DONE</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/local_address" type="other">
+         <obj_property name="ElementShortName">local_address</obj_property>
+         <obj_property name="ObjectShortName">local_address</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/local_address_valid" type="logic">
+         <obj_property name="ElementShortName">local_address_valid</obj_property>
+         <obj_property name="ObjectShortName">local_address_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/bistream_data_register" type="array">
+         <obj_property name="ElementShortName">bistream_data_register[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bistream_data_register[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/control_register" type="array">
+         <obj_property name="ElementShortName">control_register[31:0]</obj_property>
+         <obj_property name="ObjectShortName">control_register[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/status_register" type="array">
+         <obj_property name="ElementShortName">status_register[31:0]</obj_property>
+         <obj_property name="ObjectShortName">status_register[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/abort_status_register" type="array">
+         <obj_property name="ElementShortName">abort_status_register[31:0]</obj_property>
+         <obj_property name="ObjectShortName">abort_status_register[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/bitstream_length_register" type="array">
+         <obj_property name="ElementShortName">bitstream_length_register[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bitstream_length_register[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/bits_sent_register" type="array">
+         <obj_property name="ElementShortName">bits_sent_register[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bits_sent_register[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/chain_ID_register" type="array">
+         <obj_property name="ElementShortName">chain_ID_register[31:0]</obj_property>
+         <obj_property name="ObjectShortName">chain_ID_register[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/software_reset_register" type="other">
+         <obj_property name="ElementShortName">software_reset_register</obj_property>
+         <obj_property name="ObjectShortName">software_reset_register</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/control_register_address_valid" type="logic">
+         <obj_property name="ElementShortName">control_register_address_valid</obj_property>
+         <obj_property name="ObjectShortName">control_register_address_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/status_register_address_valid" type="logic">
+         <obj_property name="ElementShortName">status_register_address_valid</obj_property>
+         <obj_property name="ObjectShortName">status_register_address_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/abort_status_register_address_valid" type="logic">
+         <obj_property name="ElementShortName">abort_status_register_address_valid</obj_property>
+         <obj_property name="ObjectShortName">abort_status_register_address_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/bitstream_length_register_address_valid" type="logic">
+         <obj_property name="ElementShortName">bitstream_length_register_address_valid</obj_property>
+         <obj_property name="ObjectShortName">bitstream_length_register_address_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/bits_sent_register_address_valid" type="logic">
+         <obj_property name="ElementShortName">bits_sent_register_address_valid</obj_property>
+         <obj_property name="ObjectShortName">bits_sent_register_address_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/chain_ID_register_address_valid" type="logic">
+         <obj_property name="ElementShortName">chain_ID_register_address_valid</obj_property>
+         <obj_property name="ObjectShortName">chain_ID_register_address_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/software_reset_register_address_valid" type="logic">
+         <obj_property name="ElementShortName">software_reset_register_address_valid</obj_property>
+         <obj_property name="ObjectShortName">software_reset_register_address_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/combined_S_AXI_AWVALID_S_AXI_ARVALID" type="array">
+         <obj_property name="ElementShortName">combined_S_AXI_AWVALID_S_AXI_ARVALID[1:0]</obj_property>
+         <obj_property name="ObjectShortName">combined_S_AXI_AWVALID_S_AXI_ARVALID[1:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/Local_Reset" type="logic">
+         <obj_property name="ElementShortName">Local_Reset</obj_property>
+         <obj_property name="ObjectShortName">Local_Reset</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/current_state" type="other">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/next_state" type="other">
+         <obj_property name="ElementShortName">next_state</obj_property>
+         <obj_property name="ObjectShortName">next_state</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/write_enable_registers" type="logic">
+         <obj_property name="ElementShortName">write_enable_registers</obj_property>
+         <obj_property name="ObjectShortName">write_enable_registers</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/send_read_data_to_AXI" type="logic">
+         <obj_property name="ElementShortName">send_read_data_to_AXI</obj_property>
+         <obj_property name="ObjectShortName">send_read_data_to_AXI</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/software_reset" type="logic">
+         <obj_property name="ElementShortName">software_reset</obj_property>
+         <obj_property name="ObjectShortName">software_reset</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/go" type="logic">
+         <obj_property name="ElementShortName">go</obj_property>
+         <obj_property name="ObjectShortName">go</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/abort" type="logic">
+         <obj_property name="ElementShortName">abort</obj_property>
+         <obj_property name="ObjectShortName">abort</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/running" type="logic">
+         <obj_property name="ElementShortName">running</obj_property>
+         <obj_property name="ObjectShortName">running</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/error" type="logic">
+         <obj_property name="ElementShortName">error</obj_property>
+         <obj_property name="ObjectShortName">error</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/aborted" type="logic">
+         <obj_property name="ElementShortName">aborted</obj_property>
+         <obj_property name="ObjectShortName">aborted</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/abort_status" type="array">
+         <obj_property name="ElementShortName">abort_status[31:0]</obj_property>
+         <obj_property name="ObjectShortName">abort_status[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/chain_ID_to_configure" type="array">
+         <obj_property name="ElementShortName">chain_ID_to_configure[4:0]</obj_property>
+         <obj_property name="ObjectShortName">chain_ID_to_configure[4:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/total_bits_sent" type="array">
+         <obj_property name="ElementShortName">total_bits_sent[31:0]</obj_property>
+         <obj_property name="ObjectShortName">total_bits_sent[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/bitstream_length_bits" type="array">
+         <obj_property name="ElementShortName">bitstream_length_bits[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bitstream_length_bits[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/bitstream_length_bits" type="array">
+         <obj_property name="ElementShortName">bitstream_length_bits[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bitstream_length_bits[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/data_in_valid" type="logic">
+         <obj_property name="ElementShortName">data_in_valid</obj_property>
+         <obj_property name="ObjectShortName">data_in_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/data_fifo_full" type="logic">
+         <obj_property name="ElementShortName">data_fifo_full</obj_property>
+         <obj_property name="ObjectShortName">data_fifo_full</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/data_fifo_almost_full" type="logic">
+         <obj_property name="ElementShortName">data_fifo_almost_full</obj_property>
+         <obj_property name="ObjectShortName">data_fifo_almost_full</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/total_bits_sent" type="array">
+         <obj_property name="ElementShortName">total_bits_sent[31:0]</obj_property>
+         <obj_property name="ObjectShortName">total_bits_sent[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/C_S_AXI_ACLK_FREQ_HZ" type="other">
+         <obj_property name="ElementShortName">C_S_AXI_ACLK_FREQ_HZ</obj_property>
+         <obj_property name="ObjectShortName">C_S_AXI_ACLK_FREQ_HZ</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/SW_RESET_REG_VALUE" type="other">
+         <obj_property name="ElementShortName">SW_RESET_REG_VALUE</obj_property>
+         <obj_property name="ObjectShortName">SW_RESET_REG_VALUE</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/Clk_Period_NS" type="other">
+         <obj_property name="ElementShortName">Clk_Period_NS</obj_property>
+         <obj_property name="ObjectShortName">Clk_Period_NS</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/CONFIG_DATA_WIDTH" type="other">
+         <obj_property name="ElementShortName">CONFIG_DATA_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_DATA_WIDTH</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/NUMBER_OF_FPGAS_IN_CHAIN" type="other">
+         <obj_property name="ElementShortName">NUMBER_OF_FPGAS_IN_CHAIN</obj_property>
+         <obj_property name="ObjectShortName">NUMBER_OF_FPGAS_IN_CHAIN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/CONFIG_CLK_FREQ_HZ" type="other">
+         <obj_property name="ElementShortName">CONFIG_CLK_FREQ_HZ</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_CLK_FREQ_HZ</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/C_S_AXI_ADDR_WIDTH" type="other">
+         <obj_property name="ElementShortName">C_S_AXI_ADDR_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">C_S_AXI_ADDR_WIDTH</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/C_S_AXI_DATA_WIDTH" type="other">
+         <obj_property name="ElementShortName">C_S_AXI_DATA_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">C_S_AXI_DATA_WIDTH</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/C_S_AXI_DATA_WIDTH" type="other">
+         <obj_property name="ElementShortName">C_S_AXI_DATA_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">C_S_AXI_DATA_WIDTH</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/C_S_AXI_ADDR_WIDTH" type="other">
+         <obj_property name="ElementShortName">C_S_AXI_ADDR_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">C_S_AXI_ADDR_WIDTH</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/CONFIG_CLK_FREQ_HZ" type="other">
+         <obj_property name="ElementShortName">CONFIG_CLK_FREQ_HZ</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_CLK_FREQ_HZ</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/CONFIG_DATA_WIDTH" type="other">
+         <obj_property name="ElementShortName">CONFIG_DATA_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_DATA_WIDTH</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/AES_SECURE_CONFIG" type="other">
+         <obj_property name="ElementShortName">AES_SECURE_CONFIG</obj_property>
+         <obj_property name="ObjectShortName">AES_SECURE_CONFIG</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/CONFIG_DATA_IS_BIT_SWAPPED" type="other">
+         <obj_property name="ElementShortName">CONFIG_DATA_IS_BIT_SWAPPED</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_DATA_IS_BIT_SWAPPED</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/NUMBER_OF_FPGAS_IN_CHAIN" type="other">
+         <obj_property name="ElementShortName">NUMBER_OF_FPGAS_IN_CHAIN</obj_property>
+         <obj_property name="ObjectShortName">NUMBER_OF_FPGAS_IN_CHAIN</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/Clk_Period_NS" type="other">
+         <obj_property name="ElementShortName">Clk_Period_NS</obj_property>
+         <obj_property name="ObjectShortName">Clk_Period_NS</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/SW_RESET_REG_VALUE" type="other">
+         <obj_property name="ElementShortName">SW_RESET_REG_VALUE</obj_property>
+         <obj_property name="ObjectShortName">SW_RESET_REG_VALUE</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider948">
+      <obj_property name="label">FPGA Configuration Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group4812" type="group">
+      <obj_property name="label">FPGA Configuration Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/go" type="logic">
+         <obj_property name="ElementShortName">go</obj_property>
+         <obj_property name="ObjectShortName">go</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/abort" type="logic">
+         <obj_property name="ElementShortName">abort</obj_property>
+         <obj_property name="ObjectShortName">abort</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/running" type="logic">
+         <obj_property name="ElementShortName">running</obj_property>
+         <obj_property name="ObjectShortName">running</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/error" type="logic">
+         <obj_property name="ElementShortName">error</obj_property>
+         <obj_property name="ObjectShortName">error</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/aborted" type="logic">
+         <obj_property name="ElementShortName">aborted</obj_property>
+         <obj_property name="ObjectShortName">aborted</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/abort_status" type="array">
+         <obj_property name="ElementShortName">abort_status[31:0]</obj_property>
+         <obj_property name="ObjectShortName">abort_status[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/data_in_valid" type="logic">
+         <obj_property name="ElementShortName">data_in_valid</obj_property>
+         <obj_property name="ObjectShortName">data_in_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/data_fifo_full" type="logic">
+         <obj_property name="ElementShortName">data_fifo_full</obj_property>
+         <obj_property name="ObjectShortName">data_fifo_full</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/data_fifo_almost_full" type="logic">
+         <obj_property name="ElementShortName">data_fifo_almost_full</obj_property>
+         <obj_property name="ObjectShortName">data_fifo_almost_full</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/chain_ID_to_configure" type="array">
+         <obj_property name="ElementShortName">chain_ID_to_configure[4:0]</obj_property>
+         <obj_property name="ObjectShortName">chain_ID_to_configure[4:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/bitstream_length_bits" type="array">
+         <obj_property name="ElementShortName">bitstream_length_bits[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bitstream_length_bits[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/total_bits_sent" type="array">
+         <obj_property name="ElementShortName">total_bits_sent[31:0]</obj_property>
+         <obj_property name="ObjectShortName">total_bits_sent[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/CONFIG_CCLK" type="logic">
+         <obj_property name="ElementShortName">CONFIG_CCLK</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_CCLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/CONFIG_DATA" type="array">
+         <obj_property name="ElementShortName">CONFIG_DATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_DATA[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/CONFIG_CSI_B" type="array">
+         <obj_property name="ElementShortName">CONFIG_CSI_B[0:0]</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_CSI_B[0:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/CONFIG_RDWR_B" type="logic">
+         <obj_property name="ElementShortName">CONFIG_RDWR_B</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_RDWR_B</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/CONFIG_PROGB" type="logic">
+         <obj_property name="ElementShortName">CONFIG_PROGB</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_PROGB</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/CONFIG_INITB" type="logic">
+         <obj_property name="ElementShortName">CONFIG_INITB</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_INITB</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/CONFIG_DONE" type="logic">
+         <obj_property name="ElementShortName">CONFIG_DONE</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_DONE</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/configuration_clk" type="logic">
+         <obj_property name="ElementShortName">configuration_clk</obj_property>
+         <obj_property name="ObjectShortName">configuration_clk</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/configuration_rst" type="logic">
+         <obj_property name="ElementShortName">configuration_rst</obj_property>
+         <obj_property name="ObjectShortName">configuration_rst</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/fifo_reset" type="logic">
+         <obj_property name="ElementShortName">fifo_reset</obj_property>
+         <obj_property name="ObjectShortName">fifo_reset</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/counter" type="other">
+         <obj_property name="ElementShortName">counter</obj_property>
+         <obj_property name="ObjectShortName">counter</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/reset_counter" type="logic">
+         <obj_property name="ElementShortName">reset_counter</obj_property>
+         <obj_property name="ObjectShortName">reset_counter</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/enable_counter" type="logic">
+         <obj_property name="ElementShortName">enable_counter</obj_property>
+         <obj_property name="ObjectShortName">enable_counter</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/bitstream_size_counter" type="other">
+         <obj_property name="ElementShortName">bitstream_size_counter</obj_property>
+         <obj_property name="ObjectShortName">bitstream_size_counter</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/reset_bitstream_size_counter" type="logic">
+         <obj_property name="ElementShortName">reset_bitstream_size_counter</obj_property>
+         <obj_property name="ObjectShortName">reset_bitstream_size_counter</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/enable_bitstream_size_counter" type="logic">
+         <obj_property name="ElementShortName">enable_bitstream_size_counter</obj_property>
+         <obj_property name="ObjectShortName">enable_bitstream_size_counter</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/capture_abort_status_word" type="logic">
+         <obj_property name="ElementShortName">capture_abort_status_word</obj_property>
+         <obj_property name="ObjectShortName">capture_abort_status_word</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/width_check_OK" type="other">
+         <obj_property name="ElementShortName">width_check_OK</obj_property>
+         <obj_property name="ObjectShortName">width_check_OK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/data_from_fifo" type="array">
+         <obj_property name="ElementShortName">data_from_fifo[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_from_fifo[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/fifo_data_register" type="array">
+         <obj_property name="ElementShortName">fifo_data_register[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_data_register[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/fifo_data_register_bitswapped" type="array">
+         <obj_property name="ElementShortName">fifo_data_register_bitswapped[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_data_register_bitswapped[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/fifo_read_enable" type="logic">
+         <obj_property name="ElementShortName">fifo_read_enable</obj_property>
+         <obj_property name="ObjectShortName">fifo_read_enable</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/data_fifo_empty" type="logic">
+         <obj_property name="ElementShortName">data_fifo_empty</obj_property>
+         <obj_property name="ObjectShortName">data_fifo_empty</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/generate_CCLK" type="logic">
+         <obj_property name="ElementShortName">generate_CCLK</obj_property>
+         <obj_property name="ObjectShortName">generate_CCLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/abort_status_internal" type="array">
+         <obj_property name="ElementShortName">abort_status_internal[31:0]</obj_property>
+         <obj_property name="ObjectShortName">abort_status_internal[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/current_state" type="other">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/next_state" type="other">
+         <obj_property name="ElementShortName">next_state</obj_property>
+         <obj_property name="ObjectShortName">next_state</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/clock_period_ns" type="other">
+         <obj_property name="ElementShortName">clock_period_ns</obj_property>
+         <obj_property name="ObjectShortName">clock_period_ns</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/CONFIG_CLK_FREQ_HZ" type="other">
+         <obj_property name="ElementShortName">CONFIG_CLK_FREQ_HZ</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_CLK_FREQ_HZ</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/CONFIG_DATA_WIDTH" type="other">
+         <obj_property name="ElementShortName">CONFIG_DATA_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_DATA_WIDTH</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/AES_SECURE_CONFIG" type="other">
+         <obj_property name="ElementShortName">AES_SECURE_CONFIG</obj_property>
+         <obj_property name="ObjectShortName">AES_SECURE_CONFIG</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/CONFIG_DATA_IS_BIT_SWAPPED" type="other">
+         <obj_property name="ElementShortName">CONFIG_DATA_IS_BIT_SWAPPED</obj_property>
+         <obj_property name="ObjectShortName">CONFIG_DATA_IS_BIT_SWAPPED</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/NUMBER_OF_FPGAS_IN_CHAIN" type="other">
+         <obj_property name="ElementShortName">NUMBER_OF_FPGAS_IN_CHAIN</obj_property>
+         <obj_property name="ObjectShortName">NUMBER_OF_FPGAS_IN_CHAIN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/clock_period_ps" type="other">
+         <obj_property name="ElementShortName">clock_period_ps</obj_property>
+         <obj_property name="ObjectShortName">clock_period_ps</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/configuration_clock_period_PS" type="other">
+         <obj_property name="ElementShortName">configuration_clock_period_PS</obj_property>
+         <obj_property name="ObjectShortName">configuration_clock_period_PS</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/configuration_clock_period_NS" type="other">
+         <obj_property name="ElementShortName">configuration_clock_period_NS</obj_property>
+         <obj_property name="ObjectShortName">configuration_clock_period_NS</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1001">
+      <obj_property name="label">FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/bitstream_FIFO/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/bitstream_FIFO/wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/bitstream_FIFO/rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/bitstream_FIFO/din" type="array">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/bitstream_FIFO/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/bitstream_FIFO/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/bitstream_FIFO/dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/bitstream_FIFO/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/bitstream_FIFO/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/UUT/FPGA_configuration_controller_instance/bitstream_FIFO/prog_full" type="logic">
+      <obj_property name="ElementShortName">prog_full</obj_property>
+      <obj_property name="ObjectShortName">prog_full</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider3993">
+      <obj_property name="label">FPGA Model</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group4403" type="group">
+      <obj_property name="label">FPGA Model</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/M" type="array">
+         <obj_property name="ElementShortName">M[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M[2:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/PROGRAM_B" type="logic">
+         <obj_property name="ElementShortName">PROGRAM_B</obj_property>
+         <obj_property name="ObjectShortName">PROGRAM_B</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/INIT_B" type="logic">
+         <obj_property name="ElementShortName">INIT_B</obj_property>
+         <obj_property name="ObjectShortName">INIT_B</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/DONE" type="logic">
+         <obj_property name="ElementShortName">DONE</obj_property>
+         <obj_property name="ObjectShortName">DONE</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/CCLK" type="logic">
+         <obj_property name="ElementShortName">CCLK</obj_property>
+         <obj_property name="ObjectShortName">CCLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/PUDC_B" type="logic">
+         <obj_property name="ElementShortName">PUDC_B</obj_property>
+         <obj_property name="ObjectShortName">PUDC_B</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/EMCCLK" type="logic">
+         <obj_property name="ElementShortName">EMCCLK</obj_property>
+         <obj_property name="ObjectShortName">EMCCLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/CSI_B" type="logic">
+         <obj_property name="ElementShortName">CSI_B</obj_property>
+         <obj_property name="ObjectShortName">CSI_B</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/CSO_B" type="logic">
+         <obj_property name="ElementShortName">CSO_B</obj_property>
+         <obj_property name="ObjectShortName">CSO_B</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/DOUT" type="logic">
+         <obj_property name="ElementShortName">DOUT</obj_property>
+         <obj_property name="ObjectShortName">DOUT</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/RDWR_B" type="logic">
+         <obj_property name="ElementShortName">RDWR_B</obj_property>
+         <obj_property name="ObjectShortName">RDWR_B</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/D00_MOSI" type="logic">
+         <obj_property name="ElementShortName">D00_MOSI</obj_property>
+         <obj_property name="ObjectShortName">D00_MOSI</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/D01_DIN" type="logic">
+         <obj_property name="ElementShortName">D01_DIN</obj_property>
+         <obj_property name="ObjectShortName">D01_DIN</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/D" type="array">
+         <obj_property name="ElementShortName">D[31:0]</obj_property>
+         <obj_property name="ObjectShortName">D[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/A" type="array">
+         <obj_property name="ElementShortName">A[28:0]</obj_property>
+         <obj_property name="ObjectShortName">A[28:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/FCS_B" type="logic">
+         <obj_property name="ElementShortName">FCS_B</obj_property>
+         <obj_property name="ObjectShortName">FCS_B</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/FOE_B" type="logic">
+         <obj_property name="ElementShortName">FOE_B</obj_property>
+         <obj_property name="ObjectShortName">FOE_B</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/FWE_B" type="logic">
+         <obj_property name="ElementShortName">FWE_B</obj_property>
+         <obj_property name="ObjectShortName">FWE_B</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/ADV_B" type="logic">
+         <obj_property name="ElementShortName">ADV_B</obj_property>
+         <obj_property name="ObjectShortName">ADV_B</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/RS" type="array">
+         <obj_property name="ElementShortName">RS[1:0]</obj_property>
+         <obj_property name="ObjectShortName">RS[1:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/current_state" type="other">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/next_state" type="other">
+         <obj_property name="ElementShortName">next_state</obj_property>
+         <obj_property name="ObjectShortName">next_state</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/startup_counter" type="other">
+         <obj_property name="ElementShortName">startup_counter</obj_property>
+         <obj_property name="ObjectShortName">startup_counter</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/reset_startup_counter" type="logic">
+         <obj_property name="ElementShortName">reset_startup_counter</obj_property>
+         <obj_property name="ObjectShortName">reset_startup_counter</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/enable_startup_counter" type="logic">
+         <obj_property name="ElementShortName">enable_startup_counter</obj_property>
+         <obj_property name="ObjectShortName">enable_startup_counter</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/bitstream_size_counter" type="other">
+         <obj_property name="ElementShortName">bitstream_size_counter</obj_property>
+         <obj_property name="ObjectShortName">bitstream_size_counter</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/reset_bitstream_size_counter" type="logic">
+         <obj_property name="ElementShortName">reset_bitstream_size_counter</obj_property>
+         <obj_property name="ObjectShortName">reset_bitstream_size_counter</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/enable_bitstream_size_counter" type="logic">
+         <obj_property name="ElementShortName">enable_bitstream_size_counter</obj_property>
+         <obj_property name="ObjectShortName">enable_bitstream_size_counter</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/expected_bitstream_length" type="other">
+         <obj_property name="ElementShortName">expected_bitstream_length</obj_property>
+         <obj_property name="ObjectShortName">expected_bitstream_length</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/enable_bus_width_detection_unit" type="logic">
+         <obj_property name="ElementShortName">enable_bus_width_detection_unit</obj_property>
+         <obj_property name="ObjectShortName">enable_bus_width_detection_unit</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/width_detection_complete" type="logic">
+         <obj_property name="ElementShortName">width_detection_complete</obj_property>
+         <obj_property name="ObjectShortName">width_detection_complete</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/reset_width_detection" type="logic">
+         <obj_property name="ElementShortName">reset_width_detection</obj_property>
+         <obj_property name="ObjectShortName">reset_width_detection</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/enable_sync_word_detection_unit" type="logic">
+         <obj_property name="ElementShortName">enable_sync_word_detection_unit</obj_property>
+         <obj_property name="ObjectShortName">enable_sync_word_detection_unit</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/sync_word_detected" type="logic">
+         <obj_property name="ElementShortName">sync_word_detected</obj_property>
+         <obj_property name="ObjectShortName">sync_word_detected</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/detected_bus_width" type="other">
+         <obj_property name="ElementShortName">detected_bus_width</obj_property>
+         <obj_property name="ObjectShortName">detected_bus_width</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/parallel_data_shift_reg" type="array">
+         <obj_property name="ElementShortName">parallel_data_shift_reg[1:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">parallel_data_shift_reg[1:0][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/parallel_data_shift_reg_concatenated" type="array">
+         <obj_property name="ElementShortName">parallel_data_shift_reg_concatenated[15:0]</obj_property>
+         <obj_property name="ObjectShortName">parallel_data_shift_reg_concatenated[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/enable_clock_generation" type="logic">
+         <obj_property name="ElementShortName">enable_clock_generation</obj_property>
+         <obj_property name="ObjectShortName">enable_clock_generation</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/serial_data_shift_reg" type="array">
+         <obj_property name="ElementShortName">serial_data_shift_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">serial_data_shift_reg[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/serial_data_shift_reg_counter" type="other">
+         <obj_property name="ElementShortName">serial_data_shift_reg_counter</obj_property>
+         <obj_property name="ObjectShortName">serial_data_shift_reg_counter</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/INTERNAL_CLK" type="logic">
+         <obj_property name="ElementShortName">INTERNAL_CLK</obj_property>
+         <obj_property name="ObjectShortName">INTERNAL_CLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/INTERNAL_CCLK" type="logic">
+         <obj_property name="ElementShortName">INTERNAL_CCLK</obj_property>
+         <obj_property name="ObjectShortName">INTERNAL_CCLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/counter" type="other">
+         <obj_property name="ElementShortName">counter</obj_property>
+         <obj_property name="ObjectShortName">counter</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/reset_counter" type="logic">
+         <obj_property name="ElementShortName">reset_counter</obj_property>
+         <obj_property name="ObjectShortName">reset_counter</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/enable_counter" type="logic">
+         <obj_property name="ElementShortName">enable_counter</obj_property>
+         <obj_property name="ObjectShortName">enable_counter</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/FPGA_PART_NUMBER" type="array">
+         <obj_property name="ElementShortName">FPGA_PART_NUMBER[1:9]</obj_property>
+         <obj_property name="ObjectShortName">FPGA_PART_NUMBER[1:9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="group3994" type="group">
+         <obj_property name="label">Bitstream Size Constants</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_SIM_TEST" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_SIM_TEST</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_SIM_TEST</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7A15T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7A15T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7A15T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7A35T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7A35T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7A35T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7A50T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7A50T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7A50T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7A75T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7A75T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7A75T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7A100T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7A100T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7A100T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7A200T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7A200T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7A200T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7K70T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7K70T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7K70T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7K160T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7K160T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7K160T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7K325T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7K325T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7K325T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7K355T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7K355T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7K355T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7K410T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7K410T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7K410T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7K420T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7K420T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7K420T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7K480T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7K480T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7K480T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7V585T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7V585T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7V585T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7V2000T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7V2000T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7V2000T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7VX330T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VX330T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VX330T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7VX415T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VX415T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VX415T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7VX485T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VX485T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VX485T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7VX550T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VX550T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VX550T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7VX690T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VX690T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VX690T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7VX980T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VX980T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VX980T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7VX1140" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VX1140</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VX1140</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7VH580T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VH580T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VH580T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/BITSTREAM_LENGTH_7VH870T" type="other">
+            <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VH870T</obj_property>
+            <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VH870T</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group3995" type="group">
+         <obj_property name="label">Mode Pin Constants</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/MASTER_SERIAL_MODE" type="array">
+            <obj_property name="ElementShortName">MASTER_SERIAL_MODE[2:0]</obj_property>
+            <obj_property name="ObjectShortName">MASTER_SERIAL_MODE[2:0]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/MASTER_SPI_MODE" type="array">
+            <obj_property name="ElementShortName">MASTER_SPI_MODE[2:0]</obj_property>
+            <obj_property name="ObjectShortName">MASTER_SPI_MODE[2:0]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/MASTER_BPI_MODE" type="array">
+            <obj_property name="ElementShortName">MASTER_BPI_MODE[2:0]</obj_property>
+            <obj_property name="ObjectShortName">MASTER_BPI_MODE[2:0]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/MASTER_SELECT_MAP_MODE" type="array">
+            <obj_property name="ElementShortName">MASTER_SELECT_MAP_MODE[2:0]</obj_property>
+            <obj_property name="ObjectShortName">MASTER_SELECT_MAP_MODE[2:0]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/JTAG_MODE" type="array">
+            <obj_property name="ElementShortName">JTAG_MODE[2:0]</obj_property>
+            <obj_property name="ObjectShortName">JTAG_MODE[2:0]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/SLAVE_SELECT_MAP_MODE" type="array">
+            <obj_property name="ElementShortName">SLAVE_SELECT_MAP_MODE[2:0]</obj_property>
+            <obj_property name="ObjectShortName">SLAVE_SELECT_MAP_MODE[2:0]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/SLAVE_SERIAL_MODE" type="array">
+            <obj_property name="ElementShortName">SLAVE_SERIAL_MODE[2:0]</obj_property>
+            <obj_property name="ObjectShortName">SLAVE_SERIAL_MODE[2:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/INTERNAL_CCLK_FREQ_HZ" type="other">
+         <obj_property name="ElementShortName">INTERNAL_CCLK_FREQ_HZ</obj_property>
+         <obj_property name="ObjectShortName">INTERNAL_CCLK_FREQ_HZ</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/INTERNAL_CCLK_period_NS" type="other">
+         <obj_property name="ElementShortName">INTERNAL_CCLK_period_NS</obj_property>
+         <obj_property name="ObjectShortName">INTERNAL_CCLK_period_NS</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/INTERNAL_CCLK_period_PS" type="other">
+         <obj_property name="ElementShortName">INTERNAL_CCLK_period_PS</obj_property>
+         <obj_property name="ObjectShortName">INTERNAL_CCLK_period_PS</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/INTERNAL_CCLK_period_time" type="other">
+         <obj_property name="ElementShortName">INTERNAL_CCLK_period_time</obj_property>
+         <obj_property name="ObjectShortName">INTERNAL_CCLK_period_time</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/INTERNAL_CLK_FREQ_HZ" type="other">
+         <obj_property name="ElementShortName">INTERNAL_CLK_FREQ_HZ</obj_property>
+         <obj_property name="ObjectShortName">INTERNAL_CLK_FREQ_HZ</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/INTERNAL_CLK_period_NS" type="other">
+         <obj_property name="ElementShortName">INTERNAL_CLK_period_NS</obj_property>
+         <obj_property name="ObjectShortName">INTERNAL_CLK_period_NS</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/INTERNAL_CLK_period_PS" type="other">
+         <obj_property name="ElementShortName">INTERNAL_CLK_period_PS</obj_property>
+         <obj_property name="ObjectShortName">INTERNAL_CLK_period_PS</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/axi_FPGA_configuration_controller_testbench/\downsteam_FPGAs(0)\/downstream_FPGA/INTERNAL_CLK_period_time" type="other">
+         <obj_property name="ElementShortName">INTERNAL_CLK_period_time</obj_property>
+         <obj_property name="ObjectShortName">INTERNAL_CLK_period_time</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
