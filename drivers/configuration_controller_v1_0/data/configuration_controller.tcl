@@ -1,0 +1,6 @@
+proc generate {drv_handle} {
+    ::hsi::utils::define_include_file $drv_handle "xparameters.h" "CFG_CONTROLLER" "NUM_INSTANCES" "C_BASEADDR" "C_HIGHADDR" "DEVICE_ID" "CONFIG_CLK_FREQ_HZ" "CONFIG_DATA_WIDTH" "AES_SECURE_CONFIG" "CONFIG_DATA_IS_BIT_SWAPPED" "NUMBER_OF_FPGAS_IN_CHAIN"
+    ::hsi::utils::define_config_file $drv_handle "xparameters.h" "CFG_CONTROLLER" "DEVICE_ID" "C_BASEADDR" "CONFIG_CLK_FREQ_HZ" "CONFIG_DATA_WIDTH" "AES_SECURE_CONFIG" "CONFIG_DATA_IS_BIT_SWAPPED" "NUMBER_OF_FPGAS_IN_CHAIN"
+
+    ::hsi::utils::define_canonical_xpars $drv_handle "xparameters.h" "CFG_CONTROLLER" "DEVICE_ID" "C_BASEADDR" "C_HIGHADDR" "CONFIG_CLK_FREQ_HZ" "CONFIG_DATA_WIDTH" "AES_SECURE_CONFIG" "CONFIG_DATA_IS_BIT_SWAPPED" "NUMBER_OF_FPGAS_IN_CHAIN"
+}

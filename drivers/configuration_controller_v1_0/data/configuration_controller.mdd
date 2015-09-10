@@ -1,0 +1,15 @@
+OPTION psf_version = 2.1;
+
+BEGIN driver configuration_controller
+
+  OPTION supported_peripherals = (axi_FPGA_configuration_controller);
+  OPTION driver_state = ACTIVE;
+  OPTION copyfiles = all;
+  OPTION VERSION = 1.0;
+  OPTION NAME = configuration_controller;
+
+ BEGIN INTERFACE linux
+ END INTERFACE
+
+END driver
+

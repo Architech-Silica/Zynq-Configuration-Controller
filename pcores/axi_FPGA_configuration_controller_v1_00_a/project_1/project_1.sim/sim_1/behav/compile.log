@@ -1,0 +1,60 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/project_1/project_1.srcs/sources_1/ip/config_data_FIFO/fifo_generator_v12_0/simulation/fifo_generator_vhdl_beh.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v12_0_bhv_as
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v12_0_bhv_ss
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v12_0_bhv_preload0
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v12_0_conv
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v12_0_axic_reg_slice
+INFO: [VRFC 10-307] analyzing entity fifo_generator_vhdl_beh
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/project_1/project_1.srcs/sources_1/ip/config_data_FIFO/fifo_generator_v12_0/hdl/fifo_generator_v12_0_vh_rfs.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-307] analyzing entity input_blk
+INFO: [VRFC 10-307] analyzing entity output_blk
+INFO: [VRFC 10-307] analyzing entity shft_wrapper
+INFO: [VRFC 10-307] analyzing entity shft_ram
+INFO: [VRFC 10-307] analyzing entity wr_pf_as
+INFO: [VRFC 10-307] analyzing entity wr_pf_ss
+INFO: [VRFC 10-307] analyzing entity rd_pe_as
+INFO: [VRFC 10-307] analyzing entity rd_pe_ss
+INFO: [VRFC 10-307] analyzing entity synchronizer_ff
+INFO: [VRFC 10-307] analyzing entity delay
+INFO: [VRFC 10-307] analyzing entity bin_cntr
+INFO: [VRFC 10-307] analyzing entity clk_x_pntrs_builtin
+INFO: [VRFC 10-307] analyzing entity logic_builtin
+INFO: [VRFC 10-307] analyzing entity builtin_prim
+INFO: [VRFC 10-307] analyzing entity builtin_extdepth
+INFO: [VRFC 10-307] analyzing entity builtin_top
+INFO: [VRFC 10-307] analyzing entity reset_builtin
+INFO: [VRFC 10-307] analyzing entity builtin_prim_v6
+INFO: [VRFC 10-307] analyzing entity builtin_extdepth_v6
+INFO: [VRFC 10-307] analyzing entity builtin_extdepth_low_latency
+INFO: [VRFC 10-307] analyzing entity builtin_top_v6
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v12_0_builtin
+INFO: [VRFC 10-307] analyzing entity bram_sync_reg
+INFO: [VRFC 10-307] analyzing entity bram_fifo_rstlogic
+INFO: [VRFC 10-307] analyzing entity reset_blk_ramfifo
+INFO: [VRFC 10-307] analyzing entity axi_reg_slice
+INFO: [VRFC 10-307] analyzing entity fifo_generator_top
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v12_0_synth
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/project_1/project_1.srcs/sources_1/ip/config_data_FIFO/sim/config_data_FIFO.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity config_data_FIFO
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/clock_divider.vhd" into library axi_FPGA_configuration_controller
+INFO: [VRFC 10-307] analyzing entity clock_divider
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/FPGA_configuration_controller.vhd" into library axi_FPGA_configuration_controller
+INFO: [VRFC 10-307] analyzing entity FPGA_configuration_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/FPGA_configuration_controller_pkg.vhd" into library axi_FPGA_configuration_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Simulation_Sources/axi_simulation/AXI_WRITE_RESPONSE_CHANNEL_model.vhd" into library work
+INFO: [VRFC 10-307] analyzing entity AXI_WRITE_DATA_RESPONSE_CHANNEL_model
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Simulation_Sources/axi_simulation/AXI_WRITE_DATA_CHANNEL_model.vhd" into library work
+INFO: [VRFC 10-307] analyzing entity AXI_WRITE_DATA_CHANNEL_model
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Simulation_Sources/axi_simulation/AXI_READ_DATA_CHANNEL_model.vhd" into library work
+INFO: [VRFC 10-307] analyzing entity AXI_READ_DATA_CHANNEL_model
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Simulation_Sources/axi_simulation/AXI_ADDRESS_CONTROL_CHANNEL_model.vhd" into library work
+INFO: [VRFC 10-307] analyzing entity AXI_ADDRESS_CONTROL_CHANNEL_model
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/axi_FPGA_configuration_controller.vhd" into library axi_FPGA_configuration_controller
+INFO: [VRFC 10-307] analyzing entity axi_FPGA_configuration_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Simulation_Sources/axi_simulation/AXI_lite_master_transaction_model.vhd" into library work
+INFO: [VRFC 10-307] analyzing entity AXI_lite_master_transaction_model
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Simulation_Sources/downstream_FPGA_model.vhd" into library axi_FPGA_configuration_controller
+INFO: [VRFC 10-307] analyzing entity downstream_FPGA_model
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Simulation_Sources/axi_FPGA_configuration_controller_tb.vhd" into library work
+INFO: [VRFC 10-307] analyzing entity axi_FPGA_configuration_controller_testbench

@@ -1,0 +1,472 @@
+
+*** Running vivado
+    with args -log axi_FPGA_configuration_controller.vds -m64 -mode batch -messageDb vivado.pb -notrace -source axi_FPGA_configuration_controller.tcl
+
+
+****** Vivado v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Users/griffinr/AppData/Roaming/Xilinx/Vivado/init.tcl'
+source axi_FPGA_configuration_controller.tcl -notrace
+Command: synth_design -top axi_FPGA_configuration_controller -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 270.840 ; gain = 87.566
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'axi_FPGA_configuration_controller' [C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/axi_FPGA_configuration_controller.vhd:55]
+	Parameter C_S_AXI_ACLK_FREQ_HZ bound to: 100000000 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter CONFIG_CLK_FREQ_HZ bound to: 20000000 - type: integer 
+	Parameter CONFIG_DATA_WIDTH bound to: 1 - type: integer 
+	Parameter AES_SECURE_CONFIG bound to: 0 - type: integer 
+	Parameter CONFIG_DATA_IS_BIT_SWAPPED bound to: 1 - type: integer 
+	Parameter NUMBER_OF_FPGAS_IN_CHAIN bound to: 1 - type: integer 
+	Parameter clock_period_ns bound to: 10 - type: integer 
+	Parameter CONFIG_CLK_FREQ_HZ bound to: 20000000 - type: integer 
+	Parameter CONFIG_DATA_WIDTH bound to: 1 - type: integer 
+	Parameter AES_SECURE_CONFIG bound to: 0 - type: integer 
+	Parameter CONFIG_DATA_IS_BIT_SWAPPED bound to: 1 - type: integer 
+	Parameter NUMBER_OF_FPGAS_IN_CHAIN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'FPGA_configuration_controller' declared at 'C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/FPGA_configuration_controller.vhd:13' bound to instance 'FPGA_configuration_controller_instance' of component 'FPGA_configuration_controller' [C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/axi_FPGA_configuration_controller.vhd:440]
+INFO: [Synth 8-638] synthesizing module 'FPGA_configuration_controller' [C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/FPGA_configuration_controller.vhd:53]
+	Parameter clock_period_ns bound to: 10 - type: integer 
+	Parameter CONFIG_CLK_FREQ_HZ bound to: 20000000 - type: integer 
+	Parameter CONFIG_DATA_WIDTH bound to: 1 - type: integer 
+	Parameter AES_SECURE_CONFIG bound to: 0 - type: integer 
+	Parameter CONFIG_DATA_IS_BIT_SWAPPED bound to: 1 - type: integer 
+	Parameter NUMBER_OF_FPGAS_IN_CHAIN bound to: 1 - type: integer 
+WARNING: [Synth 8-614] signal 'configuration_rst' is read in the process but is not in the sensitivity list [C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/FPGA_configuration_controller.vhd:158]
+WARNING: [Synth 8-614] signal 'abort_status_internal' is read in the process but is not in the sensitivity list [C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/FPGA_configuration_controller.vhd:240]
+	Parameter ORIGINAL_CLK_PERIOD_PS bound to: 10000 - type: integer 
+	Parameter Slow_Clock_Period_PS bound to: 40000 - type: integer 
+INFO: [Synth 8-3491] module 'clock_divider' declared at 'C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/clock_divider.vhd:11' bound to instance 'clock_divider_instance' of component 'clock_divider' [C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/FPGA_configuration_controller.vhd:518]
+INFO: [Synth 8-638] synthesizing module 'clock_divider' [C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/clock_divider.vhd:26]
+	Parameter ORIGINAL_CLK_PERIOD_PS bound to: 10000 - type: integer 
+	Parameter Slow_Clock_Period_PS bound to: 40000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_divider' (1#1) [C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/clock_divider.vhd:26]
+INFO: [Synth 8-3491] module 'config_data_FIFO' declared at 'C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/project_1/project_1.runs/synth_1/.Xil/Vivado-11188-GBSTEZ1NB07680M/realtime/config_data_FIFO_stub.vhdl:5' bound to instance 'bitstream_FIFO' of component 'config_data_FIFO' [C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/FPGA_configuration_controller.vhd:533]
+INFO: [Synth 8-638] synthesizing module 'config_data_FIFO' [C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/project_1/project_1.runs/synth_1/.Xil/Vivado-11188-GBSTEZ1NB07680M/realtime/config_data_FIFO_stub.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'FPGA_configuration_controller' (2#1) [C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/FPGA_configuration_controller.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'axi_FPGA_configuration_controller' (3#1) [C:/custom_xilinx_ip/MyProcessorIPLib/pcores/axi_FPGA_configuration_controller_v1_00_a/VHDL_Sources/Synthesis_Sources/axi_FPGA_configuration_controller.vhd:55]
+WARNING: [Synth 8-3917] design axi_FPGA_configuration_controller has port S_AXI_RRESP[1] driven by constant 0
+WARNING: [Synth 8-3917] design axi_FPGA_configuration_controller has port S_AXI_RRESP[0] driven by constant 0
+WARNING: [Synth 8-3917] design axi_FPGA_configuration_controller has port S_AXI_BRESP[1] driven by constant 0
+WARNING: [Synth 8-3917] design axi_FPGA_configuration_controller has port S_AXI_BRESP[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 306.105 ; gain = 122.832
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 306.105 ; gain = 122.832
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 601.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "CONFIG_RDWR_B" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "local_address_valid" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bitstream_data_register_address_valid" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "control_register_address_valid" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bitstream_length_register_address_valid" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "chain_ID_register_address_valid" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "software_reset_register_address_valid" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 8     
+	                9 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	  14 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 6     
+	   3 Input      9 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   6 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 15    
+	  14 Input      1 Bit        Muxes := 12    
+	   3 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 5     
+	  10 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module axi_FPGA_configuration_controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 7     
+	                9 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   3 Input      9 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   3 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 5     
+	  10 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   9 Input      1 Bit        Muxes := 5     
+Module clock_divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module FPGA_configuration_controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	  14 Input     32 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   6 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "FPGA_configuration_controller_instance/CONFIG_RDWR_B" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FPGA_configuration_controller_instance/next_state" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design axi_FPGA_configuration_controller has port S_AXI_RRESP[1] driven by constant 0
+WARNING: [Synth 8-3917] design axi_FPGA_configuration_controller has port S_AXI_RRESP[0] driven by constant 0
+WARNING: [Synth 8-3917] design axi_FPGA_configuration_controller has port S_AXI_BRESP[1] driven by constant 0
+WARNING: [Synth 8-3917] design axi_FPGA_configuration_controller has port S_AXI_BRESP[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 601.055 ; gain = 417.781
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\abort_status_register_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\status_register_reg[31] )
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[31] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[30] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[29] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[28] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[27] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[26] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[25] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[24] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[23] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[22] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[21] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[20] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[19] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[18] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[17] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[16] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[15] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[14] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[13] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[12] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[11] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[10] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[9] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[8] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\status_register_reg[7] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[31] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[30] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[29] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[28] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[27] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[26] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[25] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[24] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[23] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[22] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[21] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[20] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[19] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[18] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[17] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[16] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[15] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[14] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[13] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[12] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[11] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[10] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[9] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[8] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[7] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[6] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[5] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[4] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[3] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[2] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[1] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+WARNING: [Synth 8-3332] Sequential element (\abort_status_register_reg[0] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 601.055 ; gain = 417.781
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_configuration_controller_instance/clock_divider_instance/clock_divider_counter_reg[2] )
+WARNING: [Synth 8-3332] Sequential element (\FPGA_configuration_controller_instance/clock_divider_instance/clock_divider_counter_reg[2] ) is unused and will be removed from module axi_FPGA_configuration_controller.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |config_data_FIFO |         1|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+----------------------+------+
+|      |Cell                  |Count |
++------+----------------------+------+
+|1     |config_data_FIFO_bbox |     1|
+|2     |BUFG                  |     2|
+|3     |CARRY4                |    12|
+|4     |LUT1                  |    36|
+|5     |LUT2                  |    33|
+|6     |LUT3                  |    25|
+|7     |LUT4                  |    57|
+|8     |LUT5                  |    25|
+|9     |LUT6                  |   116|
+|10    |MUXF7                 |     1|
+|11    |FDCE                  |     4|
+|12    |FDPE                  |     2|
+|13    |FDRE                  |   261|
+|14    |IBUF                  |    59|
+|15    |IOBUF                 |     2|
+|16    |OBUF                  |    44|
+|17    |OBUFT                 |     1|
++------+----------------------+------+
+
+Report Instance Areas: 
++------+-----------------------------------------+------------------------------+------+
+|      |Instance                                 |Module                        |Cells |
++------+-----------------------------------------+------------------------------+------+
+|1     |top                                      |                              |   715|
+|2     |  FPGA_configuration_controller_instance |FPGA_configuration_controller |   295|
+|3     |    clock_divider_instance               |clock_divider                 |    11|
++------+-----------------------------------------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:35 . Memory (MB): peak = 601.055 ; gain = 417.781
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 62 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 601.055 ; gain = 76.891
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:35 . Memory (MB): peak = 601.055 ; gain = 417.781
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+59 Infos, 68 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:33 . Memory (MB): peak = 601.055 ; gain = 377.199
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 601.055 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 09 13:50:49 2015...

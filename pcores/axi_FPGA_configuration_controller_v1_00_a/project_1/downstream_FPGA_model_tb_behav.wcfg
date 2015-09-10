@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="downstream_FPGA_model_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="downstream_FPGA_model_tb" />
+            <top_module name="fpga_configuration_controller_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="116" />
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/serial_data_shift_reg" type="array">
+      <obj_property name="ElementShortName">serial_data_shift_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">serial_data_shift_reg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/data_analysis_detection_point" type="other">
+      <obj_property name="ElementShortName">data_analysis_detection_point</obj_property>
+      <obj_property name="ObjectShortName">data_analysis_detection_point</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/serial_data_shift_reg_counter" type="other">
+      <obj_property name="ElementShortName">serial_data_shift_reg_counter</obj_property>
+      <obj_property name="ObjectShortName">serial_data_shift_reg_counter</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider116">
+      <obj_property name="label">Testbench</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/sim_end" type="other">
+      <obj_property name="ElementShortName">sim_end</obj_property>
+      <obj_property name="ObjectShortName">sim_end</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/cycle_count" type="other">
+      <obj_property name="ElementShortName">cycle_count</obj_property>
+      <obj_property name="ObjectShortName">cycle_count</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/CONFIG_DATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">CONFIG_DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">CONFIG_DATA_WIDTH</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/M" type="array">
+      <obj_property name="ElementShortName">M[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/PROGRAM_B" type="logic">
+      <obj_property name="ElementShortName">PROGRAM_B</obj_property>
+      <obj_property name="ObjectShortName">PROGRAM_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/INIT_B" type="logic">
+      <obj_property name="ElementShortName">INIT_B</obj_property>
+      <obj_property name="ObjectShortName">INIT_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/DONE" type="logic">
+      <obj_property name="ElementShortName">DONE</obj_property>
+      <obj_property name="ObjectShortName">DONE</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/CCLK" type="logic">
+      <obj_property name="ElementShortName">CCLK</obj_property>
+      <obj_property name="ObjectShortName">CCLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/PUDC_B" type="logic">
+      <obj_property name="ElementShortName">PUDC_B</obj_property>
+      <obj_property name="ObjectShortName">PUDC_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/EMCCLK" type="logic">
+      <obj_property name="ElementShortName">EMCCLK</obj_property>
+      <obj_property name="ObjectShortName">EMCCLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/CSI_B" type="logic">
+      <obj_property name="ElementShortName">CSI_B</obj_property>
+      <obj_property name="ObjectShortName">CSI_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/CSO_B" type="logic">
+      <obj_property name="ElementShortName">CSO_B</obj_property>
+      <obj_property name="ObjectShortName">CSO_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/DOUT" type="logic">
+      <obj_property name="ElementShortName">DOUT</obj_property>
+      <obj_property name="ObjectShortName">DOUT</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/RDWR_B" type="logic">
+      <obj_property name="ElementShortName">RDWR_B</obj_property>
+      <obj_property name="ObjectShortName">RDWR_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/D00_MOSI" type="logic">
+      <obj_property name="ElementShortName">D00_MOSI</obj_property>
+      <obj_property name="ObjectShortName">D00_MOSI</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/D01_DIN" type="logic">
+      <obj_property name="ElementShortName">D01_DIN</obj_property>
+      <obj_property name="ObjectShortName">D01_DIN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/D" type="array">
+      <obj_property name="ElementShortName">D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/A" type="array">
+      <obj_property name="ElementShortName">A[28:0]</obj_property>
+      <obj_property name="ObjectShortName">A[28:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/FCS_B" type="logic">
+      <obj_property name="ElementShortName">FCS_B</obj_property>
+      <obj_property name="ObjectShortName">FCS_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/FOE_B" type="logic">
+      <obj_property name="ElementShortName">FOE_B</obj_property>
+      <obj_property name="ObjectShortName">FOE_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/FWE_B" type="logic">
+      <obj_property name="ElementShortName">FWE_B</obj_property>
+      <obj_property name="ObjectShortName">FWE_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/ADV_B" type="logic">
+      <obj_property name="ElementShortName">ADV_B</obj_property>
+      <obj_property name="ObjectShortName">ADV_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/RS" type="array">
+      <obj_property name="ElementShortName">RS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RS[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/counter" type="other">
+      <obj_property name="ElementShortName">counter</obj_property>
+      <obj_property name="ObjectShortName">counter</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/reset_counter" type="logic">
+      <obj_property name="ElementShortName">reset_counter</obj_property>
+      <obj_property name="ObjectShortName">reset_counter</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/enable_counter" type="logic">
+      <obj_property name="ElementShortName">enable_counter</obj_property>
+      <obj_property name="ObjectShortName">enable_counter</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/read_next_bitstream_word" type="other">
+      <obj_property name="ElementShortName">read_next_bitstream_word</obj_property>
+      <obj_property name="ObjectShortName">read_next_bitstream_word</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/MASTER_SERIAL_MODE" type="array">
+      <obj_property name="ElementShortName">MASTER_SERIAL_MODE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MASTER_SERIAL_MODE[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/MASTER_SPI_MODE" type="array">
+      <obj_property name="ElementShortName">MASTER_SPI_MODE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MASTER_SPI_MODE[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/MASTER_BPI_MODE" type="array">
+      <obj_property name="ElementShortName">MASTER_BPI_MODE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MASTER_BPI_MODE[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/MASTER_SELECT_MAP_MODE" type="array">
+      <obj_property name="ElementShortName">MASTER_SELECT_MAP_MODE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MASTER_SELECT_MAP_MODE[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/JTAG_MODE" type="array">
+      <obj_property name="ElementShortName">JTAG_MODE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">JTAG_MODE[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/SLAVE_SELECT_MAP_MODE" type="array">
+      <obj_property name="ElementShortName">SLAVE_SELECT_MAP_MODE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SLAVE_SELECT_MAP_MODE[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/SLAVE_SERIAL_MODE" type="array">
+      <obj_property name="ElementShortName">SLAVE_SERIAL_MODE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SLAVE_SERIAL_MODE[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/FPGA_PART_NUMBER" type="array">
+      <obj_property name="ElementShortName">FPGA_PART_NUMBER[1:8]</obj_property>
+      <obj_property name="ObjectShortName">FPGA_PART_NUMBER[1:8]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/simulation_interval" type="other">
+      <obj_property name="ElementShortName">simulation_interval</obj_property>
+      <obj_property name="ObjectShortName">simulation_interval</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/CCLK_FREQ_HZ" type="other">
+      <obj_property name="ElementShortName">CCLK_FREQ_HZ</obj_property>
+      <obj_property name="ObjectShortName">CCLK_FREQ_HZ</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/CCLK_period_NS" type="other">
+      <obj_property name="ElementShortName">CCLK_period_NS</obj_property>
+      <obj_property name="ObjectShortName">CCLK_period_NS</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/CCLK_period_PS" type="other">
+      <obj_property name="ElementShortName">CCLK_period_PS</obj_property>
+      <obj_property name="ObjectShortName">CCLK_period_PS</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/CCLK_period_time" type="other">
+      <obj_property name="ElementShortName">CCLK_period_time</obj_property>
+      <obj_property name="ObjectShortName">CCLK_period_time</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider115">
+      <obj_property name="label">UUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/INTERNAL_CLK" type="logic">
+      <obj_property name="ElementShortName">INTERNAL_CLK</obj_property>
+      <obj_property name="ObjectShortName">INTERNAL_CLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/M" type="array">
+      <obj_property name="ElementShortName">M[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/PROGRAM_B" type="logic">
+      <obj_property name="ElementShortName">PROGRAM_B</obj_property>
+      <obj_property name="ObjectShortName">PROGRAM_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/INIT_B" type="logic">
+      <obj_property name="ElementShortName">INIT_B</obj_property>
+      <obj_property name="ObjectShortName">INIT_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/DONE" type="logic">
+      <obj_property name="ElementShortName">DONE</obj_property>
+      <obj_property name="ObjectShortName">DONE</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/CCLK" type="logic">
+      <obj_property name="ElementShortName">CCLK</obj_property>
+      <obj_property name="ObjectShortName">CCLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/PUDC_B" type="logic">
+      <obj_property name="ElementShortName">PUDC_B</obj_property>
+      <obj_property name="ObjectShortName">PUDC_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/EMCCLK" type="logic">
+      <obj_property name="ElementShortName">EMCCLK</obj_property>
+      <obj_property name="ObjectShortName">EMCCLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/CSI_B" type="logic">
+      <obj_property name="ElementShortName">CSI_B</obj_property>
+      <obj_property name="ObjectShortName">CSI_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/CSO_B" type="logic">
+      <obj_property name="ElementShortName">CSO_B</obj_property>
+      <obj_property name="ObjectShortName">CSO_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/DOUT" type="logic">
+      <obj_property name="ElementShortName">DOUT</obj_property>
+      <obj_property name="ObjectShortName">DOUT</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/RDWR_B" type="logic">
+      <obj_property name="ElementShortName">RDWR_B</obj_property>
+      <obj_property name="ObjectShortName">RDWR_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/D00_MOSI" type="logic">
+      <obj_property name="ElementShortName">D00_MOSI</obj_property>
+      <obj_property name="ObjectShortName">D00_MOSI</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/D01_DIN" type="logic">
+      <obj_property name="ElementShortName">D01_DIN</obj_property>
+      <obj_property name="ObjectShortName">D01_DIN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/D" type="array">
+      <obj_property name="ElementShortName">D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/A" type="array">
+      <obj_property name="ElementShortName">A[28:0]</obj_property>
+      <obj_property name="ObjectShortName">A[28:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/FCS_B" type="logic">
+      <obj_property name="ElementShortName">FCS_B</obj_property>
+      <obj_property name="ObjectShortName">FCS_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/FOE_B" type="logic">
+      <obj_property name="ElementShortName">FOE_B</obj_property>
+      <obj_property name="ObjectShortName">FOE_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/FWE_B" type="logic">
+      <obj_property name="ElementShortName">FWE_B</obj_property>
+      <obj_property name="ObjectShortName">FWE_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/ADV_B" type="logic">
+      <obj_property name="ElementShortName">ADV_B</obj_property>
+      <obj_property name="ObjectShortName">ADV_B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/RS" type="array">
+      <obj_property name="ElementShortName">RS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RS[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/current_state" type="other">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/next_state" type="other">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/startup_counter" type="other">
+      <obj_property name="ElementShortName">startup_counter</obj_property>
+      <obj_property name="ObjectShortName">startup_counter</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/reset_startup_counter" type="logic">
+      <obj_property name="ElementShortName">reset_startup_counter</obj_property>
+      <obj_property name="ObjectShortName">reset_startup_counter</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/enable_startup_counter" type="logic">
+      <obj_property name="ElementShortName">enable_startup_counter</obj_property>
+      <obj_property name="ObjectShortName">enable_startup_counter</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/bitstream_size_counter" type="other">
+      <obj_property name="ElementShortName">bitstream_size_counter</obj_property>
+      <obj_property name="ObjectShortName">bitstream_size_counter</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/reset_bitstream_size_counter" type="logic">
+      <obj_property name="ElementShortName">reset_bitstream_size_counter</obj_property>
+      <obj_property name="ObjectShortName">reset_bitstream_size_counter</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/enable_bitstream_size_counter" type="logic">
+      <obj_property name="ElementShortName">enable_bitstream_size_counter</obj_property>
+      <obj_property name="ObjectShortName">enable_bitstream_size_counter</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/expected_bitstream_length" type="other">
+      <obj_property name="ElementShortName">expected_bitstream_length</obj_property>
+      <obj_property name="ObjectShortName">expected_bitstream_length</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/enable_bus_width_detection_unit" type="logic">
+      <obj_property name="ElementShortName">enable_bus_width_detection_unit</obj_property>
+      <obj_property name="ObjectShortName">enable_bus_width_detection_unit</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/width_detection_complete" type="logic">
+      <obj_property name="ElementShortName">width_detection_complete</obj_property>
+      <obj_property name="ObjectShortName">width_detection_complete</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/reset_width_detection" type="logic">
+      <obj_property name="ElementShortName">reset_width_detection</obj_property>
+      <obj_property name="ObjectShortName">reset_width_detection</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/enable_sync_word_detection_unit" type="logic">
+      <obj_property name="ElementShortName">enable_sync_word_detection_unit</obj_property>
+      <obj_property name="ObjectShortName">enable_sync_word_detection_unit</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/serial_data_shift_reg" type="array">
+      <obj_property name="ElementShortName">serial_data_shift_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">serial_data_shift_reg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/sync_word_detected" type="logic">
+      <obj_property name="ElementShortName">sync_word_detected</obj_property>
+      <obj_property name="ObjectShortName">sync_word_detected</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/detected_bus_width" type="other">
+      <obj_property name="ElementShortName">detected_bus_width</obj_property>
+      <obj_property name="ObjectShortName">detected_bus_width</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/parallel_data_shift_reg" type="array">
+      <obj_property name="ElementShortName">parallel_data_shift_reg[1:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">parallel_data_shift_reg[1:0][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/parallel_data_shift_reg_concatenated" type="array">
+      <obj_property name="ElementShortName">parallel_data_shift_reg_concatenated[15:0]</obj_property>
+      <obj_property name="ObjectShortName">parallel_data_shift_reg_concatenated[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/FPGA_PART_NUMBER" type="array">
+      <obj_property name="ElementShortName">FPGA_PART_NUMBER[1:8]</obj_property>
+      <obj_property name="ObjectShortName">FPGA_PART_NUMBER[1:8]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7A15T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7A15T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7A15T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7A35T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7A35T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7A35T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7A50T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7A50T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7A50T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7A75T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7A75T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7A75T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7A100T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7A100T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7A100T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7A200T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7A200T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7A200T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7K70T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7K70T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7K70T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7K160T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7K160T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7K160T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7K325T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7K325T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7K325T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7K355T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7K355T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7K355T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7K410T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7K410T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7K410T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7K420T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7K420T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7K420T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7K480T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7K480T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7K480T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7V585T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7V585T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7V585T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7V2000T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7V2000T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7V2000T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7VX330T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VX330T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VX330T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7VX415T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VX415T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VX415T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7VX485T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VX485T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VX485T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7VX550T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VX550T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VX550T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7VX690T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VX690T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VX690T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7VX980T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VX980T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VX980T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7VX1140" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VX1140</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VX1140</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7VH580T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VH580T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VH580T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/BITSTREAM_LENGTH_7VH870T" type="other">
+      <obj_property name="ElementShortName">BITSTREAM_LENGTH_7VH870T</obj_property>
+      <obj_property name="ObjectShortName">BITSTREAM_LENGTH_7VH870T</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/MASTER_SERIAL_MODE" type="array">
+      <obj_property name="ElementShortName">MASTER_SERIAL_MODE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MASTER_SERIAL_MODE[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/MASTER_SPI_MODE" type="array">
+      <obj_property name="ElementShortName">MASTER_SPI_MODE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MASTER_SPI_MODE[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/MASTER_BPI_MODE" type="array">
+      <obj_property name="ElementShortName">MASTER_BPI_MODE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MASTER_BPI_MODE[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/MASTER_SELECT_MAP_MODE" type="array">
+      <obj_property name="ElementShortName">MASTER_SELECT_MAP_MODE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MASTER_SELECT_MAP_MODE[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/JTAG_MODE" type="array">
+      <obj_property name="ElementShortName">JTAG_MODE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">JTAG_MODE[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/SLAVE_SELECT_MAP_MODE" type="array">
+      <obj_property name="ElementShortName">SLAVE_SELECT_MAP_MODE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SLAVE_SELECT_MAP_MODE[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/downstream_FPGA_model_tb/downstream_FPGA/SLAVE_SERIAL_MODE" type="array">
+      <obj_property name="ElementShortName">SLAVE_SERIAL_MODE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SLAVE_SERIAL_MODE[2:0]</obj_property>
+   </wvobject>
+</wave_config>
