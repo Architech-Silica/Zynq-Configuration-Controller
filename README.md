@@ -12,6 +12,7 @@ This IP is designed to be installed into the Xilinx Vivado / SDK tools, and enab
 
 This library was created using the the [Xilinx Vivado 2015.2 tools](http://www.xilinx.com/support/download.html), but is likely to be forwards and backwards compatible with other versions.
 
+
 ##Xilinx Configuration Modes
 Depending on the board layout, desired configuration speed, and I/O availability, users have a wide range of requirements for their configuration interfaces.  The configuration controller supports the following configuration interfaces:
 
@@ -20,11 +21,14 @@ Depending on the board layout, desired configuration speed, and I/O availability
 - Slave Select Map (32 bit mode)
 - Slave Serial mode (including daisy chains of FPGAs)
 
+
+
 In all cases the PROG.B and INIT.B lines are monitored / driven automatically by the controller, enabling downstream devices to be configured using a simple API function call.
 
 In Select Map modes, the controller will automatically generate chip select outputs based on the number of downstream FPGAs that the user specifies exists on the board.  In SelectMAP modes the user also has the option to abort a configuration operation.  The abort status data from the downstream device will be captured automatically by the configuration controller for analysis by the host software.
 
 In all cases the controller supports bitstream data sources in both bit-swapped and non-bit-swapped format, and will modify the data automatically without manual user pre-processing.
+
 
 ##Structure based Software API
 The configuration controller uses a "struct" based approach to facilitate ease of use.  The configuration options that were set by the HW engineering team are automatically populated in the struct when it is initialised using the supplied API function call.
@@ -108,7 +112,21 @@ Once the files are in the correct locations, both Vivado and the Xilinx SDK (Ecl
 - Press "OK" to close the Project Settings 
 *Please see the supplied screenshots for further guidance*
 
-### SDK
+###Vivado IP Repository Settings
+![alt tag](https://raw.github.com/Architech-Silica/Zynq-Configuration-Controller/master/Screenshots/Project_settings_IP_Repositories.jpg)
+
+## Vivado Block Diagram
+![alt tag](https://raw.github.com/Architech-Silica/Zynq-Configuration-Controller/master/Screenshots/block_diagram.jpg)
+
+###Slave Select Map Mode Configuration
+![alt tag](https://raw.github.com/Architech-Silica/Zynq-Configuration-Controller/master/Screenshots/slave_select_map_parameters.jpg)
+
+###Slave Serial Mode Configuration
+![alt tag](https://raw.github.com/Architech-Silica/Zynq-Configuration-Controller/master/Screenshots/slave_serial_parameters.jpg)
+
+--------------------------------
+
+## SDK
 
 - Open the SDK Preferences using the menus, "Window -> Preferences".
 - Navigate to the "Xilinx SDK -> Repositories" settings.
@@ -128,7 +146,7 @@ The configuration controller drivers will be automatically selected when an inst
 - Click "OK".
 - The BSP will be automatically recompiled and the drivers will be included in the available sources.
 
-*Please see the supplied screenshots for further guidance.*
+![alt tag](https://raw.github.com/Architech-Silica/Zynq-Configuration-Controller/master/Screenshots/BSP_Settings.jpg)
 
 ## Using the Configuration Controller within a software application
 An example software application project has been provided with this IP, enabling users to quickly and easily get started with this solution in their designs.  To import the application, simply click the "Import Examples" link in the BSP window within SDK.  This will automatically create an application project and BSP in the SDK.  The configuration controller example design uses the "xilffs" library to read the bitstream from a storage device such as an SD card.
