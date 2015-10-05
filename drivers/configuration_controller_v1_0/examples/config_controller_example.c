@@ -57,7 +57,8 @@ int main()
 	temp = config_controller_Initialize(&my_CFG_controller, XPAR_AXI_FPGA_CONFIGURATION_CONTROLLER_0_DEVICE_ID);
 
 	// Welcome message
-	printf("Hello Rich!\n\r");
+	printf("Hello TMC 2015!\n\r");
+	printf("this is a github demo\n\r");
 
 	// Reset the controller.  Any active status flags should de-assert
 	printf("Resetting the CFG Controller\n\r");
